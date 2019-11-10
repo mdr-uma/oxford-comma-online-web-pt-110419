@@ -1,3 +1,8 @@
 def oxford_comma(array)
-  array.join(" and ")
+  new_array = []
+  array.each do |name|
+    array << new_array(name)
+    array.join(" and ")
+
+  end
 end
